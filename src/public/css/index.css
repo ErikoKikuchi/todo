@@ -1,6 +1,6 @@
 /*TopComment*/
 .top-comment{
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 
 }
 
@@ -27,45 +27,65 @@
     justify-content: center;
 }
 .todo-form__item{
-
-
+    display:flex;
+    gap: 50px;
 }
+
 .todo-form__item--input{
-    width: 500px;
-    height: 40px;
-    margin-right: 10px;
+    width: 700px;
+    height: 50px;
+    text-align: left;
 }
 .todo-form__item--submit{
-    width:50px;
-    height:30px;
+    width: 200px;
+    height:50px;
     background-color: #000;
     color: #fff;
 }
 
 /*TodoList*/
 .todo-list{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
 
-}
 .todo-list__title{
     margin: 0 auto;
     padding: 20px 15px;
     max-width: 1230px;
+    border-bottom: gray 2px solid;
+    width: 950px;
+    text-align: left;
 }
-.todo-list__table-contents{
-    text-align: center;
+.todo-list__table{
+    width:950px;
+    display:flex;
+    gap:50px;
 }
 .update-form__item{
-    width: 300px;
-    height: 30px;
+    width: 750px;
+    height: 60px;
     margin-right: 10px;
-    text-align: center;
-
+    text-align: left;
+    border:none;
 }
 .update-form__button-submit{
+    width:80px;
+    height:40px;
     background-color: #0000ff;
     color: #fff;
+    border:none;
+    margin-right: 20px;
 }
 .delete-form__button-submit{
+    width:80px;
+    height:40px;
     background-color: #ff0000;
     color: #fff;
+    border:none
+}
+.todo-list__table--row{
+    border-bottom: gray 2px solid;
+    width: 950px;
 }
