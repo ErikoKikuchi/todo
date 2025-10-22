@@ -1,0 +1,71 @@
+/*TopComment*/
+.top-comment{
+    margin-bottom: 10px;
+
+}
+
+.top-comment__errors {
+    background-color: #f8d7da;
+    border:1px solid #f5c2c7;
+    margin:0px;
+    padding:10px 10px 10px 30px;
+
+}
+.top-comment__error{
+    color:#842029;
+}
+.top-comment__success{
+    margin:0px;
+    padding:10px 10px;
+    background-color: #d1e7dd;
+    border:1px solid #badbcc;
+    color:#0f5132;
+}
+/*TodoForm*/
+.todo-form{
+    display:flex;
+    justify-content: center;
+}
+.todo-form__item{
+
+
+}
+.todo-form__item--input{
+    width: 500px;
+    height: 40px;
+    margin-right: 10px;
+}
+.todo-form__item--submit{
+    width:50px;
+    height:30px;
+    background-color: #000;
+    color: #fff;
+}
+
+/*TodoList*/
+.todo-list{
+
+}
+.todo-list__title{
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+.todo-list__table-contents{
+    text-align: center;
+}
+.update-form__item{
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+.update-form__button-submit{
+    background-color: #0000ff;
+    color: #fff;
+}
+.delete-form__button-submit{
+    background-color: #ff0000;
+    color: #fff;
+}
