@@ -1,0 +1,112 @@
+/*TopComment*/
+.top-comment {
+    margin-bottom: 70px;
+
+}
+
+.top-comment__errors {
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    margin: 0px;
+    padding: 10px 10px 10px 30px;
+
+}
+
+.top-comment__error {
+    color: #842029;
+}
+
+.top-comment__success {
+    margin: 0px;
+    padding: 10px 10px;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    color: #0f5132;
+}
+/*CategoryList*/
+.category-list{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.category-list__form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 1230px;
+    width:100%;
+    text-align: left;
+}
+.category-list__form--item{
+    gap: 20px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.category-list__form--input{
+    flex: 4;
+    height: 50px;
+    text-align: left;
+    width:100%;
+}
+.category-list__form--submit{
+    flex: 1;
+    background-color: #000;
+    color:#ffffff;
+    border:none;
+    font-size:16px;
+    height: 50px;
+    cursor: pointer;
+}
+.category-list__table{
+    width: 100%;
+    max-width: 1230px;
+    border-collapse: collapse;
+}
+.category-list__table--header{
+    border-bottom: gray 2px solid;
+    text-align: left;
+}
+.category-list__table--header-item{
+    padding: 10px 0px;
+}
+.category-list__table--row{
+    border-bottom: gray 2px solid;
+}
+.category-list__table--row-item{
+    padding: 10px 0px;
+    display:flex;
+}
+.update-form{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-right: 20px;
+}
+.update-form__item{
+    border:none;
+}
+.update-form__button-submit{
+    background-color: #0000ff;
+    color:#ffffff;
+    border:none;
+    font-size:16px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.delete-form__button-submit{
+    background-color: #ff0000;
+    color:#ffffff;
+    border:none;
+    font-size:16px;
+    height: 30px;
+    cursor: pointer;
+}

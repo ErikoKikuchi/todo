@@ -7,10 +7,20 @@
     padding: 20px 0px;
     max-width: 1230px;
 }
+.header__menu {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .header__logo {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+}
+.header__nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
 }

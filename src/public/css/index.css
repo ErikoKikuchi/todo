@@ -22,70 +22,169 @@
     color:#0f5132;
 }
 /*TodoForm*/
+.todo-form-block{
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+
+}
+.section__title{
+    text-align: left;
+    font-size: 24px;
+    width:100%;
+    max-width:1230px;
+}
 .todo-form{
     display:flex;
     justify-content: center;
+    margin-bottom: 50px;
+    max-width: 1230px;
+    width:100%;
 }
 .todo-form__item{
     display:flex;
-    gap: 50px;
+    gap: 20px;
+    width:100%;
 }
 
 .todo-form__item--input{
-    width: 700px;
+    flex: 3;
     height: 50px;
     text-align: left;
 }
+.todo-form__item--select {
+    height: 50px;
+    flex:2;
+}
 .todo-form__item--submit{
-    width: 200px;
     height:50px;
     background-color: #000;
     color: #fff;
+    flex:1;
 }
+/*SearchForm*/
+.search-form-block {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 1230px;
+    width: 100%;
+}
+.search-form__item {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.search-form__item--input {
+    flex:3;
+    height: 50px;
+    text-align: left;
+}
+.search-form__item--select {
+    flex:2;
+    height: 50px;
+}
+.search-form__item--submit {
+    flex:1;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+}
 /*TodoList*/
 .todo-list{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+}
 
-.todo-list__title{
+.todo-list__table {
+    display: block;
+    gap: 50px;
+    max-width: 1230px;
+}
+.todo-list__header{
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 20px 15px;
     max-width: 1230px;
     border-bottom: gray 2px solid;
-    width: 950px;
+    width: 1230px;
     text-align: left;
 }
-.todo-list__table{
-    width:950px;
+.todo-list__table--row{
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    border-bottom: gray 2px solid;
+
+}
+.update-form{
     display:flex;
-    gap:50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+.todo-list__table-content{
+    width: 95%;
+    text-align: left;
+    display: flex;
 }
 .update-form__item{
-    width: 750px;
     height: 60px;
     margin-right: 10px;
     text-align: left;
     border:none;
+    font-size:16px;
+}
+.update-form__category{
+    height: 60px;
+    text-align: left;
+    border:none;
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .update-form__button-submit{
-    width:80px;
-    height:40px;
     background-color: #0000ff;
     color: #fff;
     border:none;
-    margin-right: 20px;
+    width:100%;
+    padding:5px;
+    border-radius: 3px;
+    cursor: pointer;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.delete-form{
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .delete-form__button-submit{
-    width:80px;
-    height:40px;
     background-color: #ff0000;
     color: #fff;
-    border:none
-}
-.todo-list__table--row{
-    border-bottom: gray 2px solid;
-    width: 950px;
+    border:none;
+    padding:5px;
+    width:100%;
+    border-radius: 3px;
+    cursor: pointer;
+
 }
